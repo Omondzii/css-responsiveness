@@ -4,6 +4,9 @@ body{
     font-family: 'Lato', sans-serif;
     color: #2e354f;
 }
+img{
+    width: 100%;
+}
 h1,
 h2,
 strong{
@@ -24,4 +27,43 @@ a{
 a:hover,
 a:focus {
     color: #d4b44c;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+.btn-accent{
+    background-color: #ef5839;
+    color: #fff;
+}
+.btn-accent:hover,{
+    color: #2e354f;
+    background-color:#d4b44c;
+}
+.btn-white{
+    background: #fff;
+    color:#2e354f;
+}
+.btn-white:hover{
+    color: #2e354f;
+    background: #999;
+}
+header{
+    background:#2e354f ;
+    padding: 45px 0;
+    color:#fff;
+}
+section{
+    padding: 45px 0;
+}
+.container{
+    width: 50%;
+    max-width: 620px;
+    margin: 0 auto;
+    border: 2px solid magenta;
+}
+.section-two{
+    background: #2e354f;
+    color: #fff;
 }
