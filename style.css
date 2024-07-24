@@ -40,22 +40,25 @@ a:focus {
 }
 .btn{
     display: inline-block;
-    padding: 10px 25px;
+    padding: 15px 30px;
     text-decoration: none;
+    text-align: center;
+    margin-top: 50px;
+    color: #000;
 }
-.btn-accent{
+.btn-big{
     background-color: #ef5839;
     color: #fff;
 }
-.btn-accent:hover,{
+.btn-big:hover,{
     color: #2e354f;
     background-color:#d4b44c;
 }
-.btn-white{
+.btn-small{
     background: #fff;
     color:#2e354f;
 }
-.btn-white:hover{
+.btn-small:hover{
     color: #2e354f;
     background: #999;
 }
