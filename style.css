@@ -79,7 +79,7 @@ section{
 .section-two{
     background: #2e354f;
     color: #fff;
-}*/
+}**/
 body {
     font-size: 1.125rem;
     color: #707070;
@@ -90,6 +90,7 @@ body {
 h1 {
     font-size: 3rem;
     color: #212614;
+    text-align: center;
 }
 
 h1 span {
@@ -100,6 +101,9 @@ h2 {
     font-size: 1.5rem;
 }
 
+p {
+    margin-top: 0;
+}
 
 img {
     max-width: 100%;
@@ -113,4 +117,11 @@ img {
 
 .columns {
     display: flex;
+    margin: 1em 0;
+}
+
+.col-bg {
+    background: #212614;
+    color: #fff;
+    padding: 1em;
 }
