@@ -118,6 +118,7 @@ img {
 .columns {
     display: flex;
     margin: 1em 0;
+    flex-direction: row;
 }
 
 .col-bg {
