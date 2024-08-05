@@ -84,7 +84,21 @@ body {
     font-size: 1.125rem;
     color: #707070;
     margin: 0;
+    background: pink;
 }
+@media (min-width: 400px){
+    body{
+        background: purple ;
+    }
+
+}
+@media (min-width: 650px){
+    body{
+        background: orange ;
+    }
+}    
+
+   
 
 
 h1 {
